@@ -16,6 +16,26 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".HouseActivity"
+            android:label="@string/title_activity_house" >
+        </activity>
+        <activity
+            android:name=".SoftKeyActivity"
+            android:label="@string/title_activity_soft_key" >
+        </activity>
+        <activity
+            android:name=".SettingActivity"
+            android:label="@string/title_activity_setting" >
+        </activity>
+        <activity
+            android:name=".DoorConfigureActivity"
+            android:label="@string/title_activity_door_configure" >
+        </activity>
     </application>
 
 </manifest>

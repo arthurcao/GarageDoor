@@ -3,4 +3,9 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_house">HouseActivity</string>
+    <string name="title_activity_soft_key">SoftKeyActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_door_configure">DoorConfigureActivity</string>
 </resources>
