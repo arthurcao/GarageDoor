@@ -8,4 +8,7 @@
     <string name="title_activity_soft_key">SoftKeyActivity</string>
     <string name="title_activity_setting">SettingActivity</string>
     <string name="title_activity_door_configure">DoorConfigureActivity</string>
+    <string name="garage_opener">Garage Opener</string>
+
+
 </resources>

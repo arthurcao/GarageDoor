@@ -1,9 +1,12 @@
 package com.kooltechs.garagedoor;
 
+import android.graphics.drawable.ColorDrawable;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 
 public class HouseActivity extends ActionBarActivity {
@@ -12,6 +15,20 @@ public class HouseActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_house);
+        setTitleBar();
+    }
+
+    private void setTitleBar(){
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
+        actionBar.setCustomView(R.layout.actionbar_title);
+        actionBar.setElevation(0);
+
+        int actionbarcolor = getResources().getColor(R.color.background_title);
+        actionBar.setBackgroundDrawable(new ColorDrawable(actionbarcolor));
+        actionBar.setDisplayHomeAsUpEnabled(true);
+        TextView title = (TextView) actionBar.getCustomView().findViewById(R.id.actionbar_title_textview);
+        title.setText("Confirm");
     }
 
     @Override
