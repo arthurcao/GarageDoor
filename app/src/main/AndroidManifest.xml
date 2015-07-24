@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.kooltechs.garagedoor" >
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -35,6 +38,10 @@
         <activity
             android:name=".DoorConfigureActivity"
             android:label="@string/title_activity_door_configure" >
+        </activity>
+        <activity
+            android:name=".NewAccountActivity"
+            android:label="@string/title_activity_new_account" >
         </activity>
     </application>
 

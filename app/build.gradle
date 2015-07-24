@@ -22,6 +22,6 @@ android {
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.android.support:appcompat-v7:22.2.0'
-    compile files('libs/org.xbill.dns_2.1.6.jar')
     compile files('libs/org.xbill.mdns_2.1.6.jar')
+    compile files('libs/org.xbill.dns_2.1.7.jar')
 }

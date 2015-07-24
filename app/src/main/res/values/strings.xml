@@ -11,4 +11,15 @@
     <string name="garage_opener">Garage Opener</string>
 
 
+    <!--New Account-->
+    <string name="title_activity_new_account">NewAccountActivity</string>
+    <string name="email">Email</string>
+    <string name="verify">Verify</string>
+    <string name="password">Password</string>
+    <string name="email_address">Email address</string>
+    <string name="retype_your_mail">Retype your email</string>
+    <string name="required">Required</string>
+    <string name="retype_your_password">Retype your password</string>
+
+
 </resources>
